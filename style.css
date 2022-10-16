@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#hover{
+    width: 90%;
+    margin: 40px auto ;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 40px;
+    height: 8vh;
+    background-image: url(./img/section-title-bg.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.title p{
+    padding: 40px;
+    font-size: 20px;
+}
+.content{
+    margin: 40px auto;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+.content div{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    /* background-color: aliceblue; */
+    background-image: linear-gradient(to top,#67b0d1 50%,rgb(212, 208, 208) 50%);
+    background-size: 100% 200%;
+    padding: 20px;
+    margin:  20px;
+    border-radius: 15px;
+    /* box-shadow: inset 0 0 0 0 #67b0d1; */
+    transition: ease-out 0.4s;
+}
+.content div:hover{
+    /* box-shadow: inset 0px 0 0 300px #67b0d1; */
+    background-position: 0% 100%;
+}
+.content div:hover i{
+    color: azure;
+}
+.content div:hover p{
+    color: aliceblue;
+}
+.content div:hover h2{
+    color: aliceblue;
+}
+.content div i{
+    font-size: 35px;
+    color: #67b0d1;
+    margin: 20px 0;
+    padding: 20px;
+    transition: ease-out 0.4s;
+}
+.content div h2{
+    font-size: 20px;
+    padding: 10px;
+    transition: ease-out 0.4s;
+}
+.content div p{
+    color: grey;
+    padding: 10px;
+    transition: ease-out 0.4s;
+}
